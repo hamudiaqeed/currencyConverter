@@ -1,0 +1,29 @@
+*{
+    font-family: 'Indie Flower';
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7598389697675946) 40%, rgba(0,212,255,1) 100%);    
+    
+}
+
+.style{
+    font-size: 30px;
+    text-align: center;
+}
+
+.para{
+    font-size: 30px;
+}
+
+#data{
+    text-align: center;
+    font-size: 30px;
+}
+
+#adaugare, .nimic{
+    text-align: center;
+}
+
+
+

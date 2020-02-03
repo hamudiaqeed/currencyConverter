@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Convertor valutar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="logo-sageata.png">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="data">
+            <label>Foloseste cursul BNR din data</label> 
+            <input type="date" value="2019-11-13" class="style">
+        </div>
+        <br><br><hr>
+        
+        <p id="bnr" class="style"><span>1 EUR = 4.7635 RON</span></p>
+
+        <br><hr>
+
+        <div id="adaugare">
+            <input type="number" placeholder="1" autocomplete="off" class='style' id="valuare">
+            <input type="text" readonly value="EUR" class="style" id="eur">
+            <a onclick="replaceFunc()" href="#" id="reverse"><img src="reverse.png" alt="buton_reverse"  width="30px" height="30px" class="style"></a>
+            <input type="text" readonly value="RON" class="style" id="ron">
+            <br>
+            <a id="convert" href="#" class="style">CONVERTITI</a>
+        </div>
+
+        <br><br><hr>
+
+        <div class="nimic">
+            <p class="para">REZULTAT: </p>
+            <input type="number" readonly placeholder="4.7" value="" class="style" id="rezultat">
+            <input type="text" readonly value="RON" class="style" id="moneda">
+        </div>
+        
+        <script src="replace.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
